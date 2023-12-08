@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "streamlit-rag"
+version = "0.1.0"
+description = ""
+authors = ["Florian Teich <florianteich@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.29.0"
+langchain = "^0.0.344"
+llama-cpp-python = "^0.2.20"
+sentence-transformers = "^2.2.2"
+chromadb = "^0.4.18"
+langchainhub = "^0.1.14"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
